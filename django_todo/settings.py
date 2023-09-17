@@ -31,10 +31,8 @@ SECRET_KEY = bool(os.environ.get('SECRET_KEY',''))
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = development
 
-if development:
-    ALLOWED_HOSTS = ['127.0.0.1']
-else:    
-    ALLOWED_HOSTS = ['helo-django-todo-erik-96d4fb74ea67.herokuapp.com']
+
+ALLOWED_HOSTS = ['helo-django-todo-erik-96d4fb74ea67.herokuapp.com']
 
 
 # Application definition
